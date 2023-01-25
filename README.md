@@ -1,1 +1,1 @@
-# Hotsar-Clone
+# Hotstar-Clone
