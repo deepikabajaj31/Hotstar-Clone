@@ -30,20 +30,20 @@
   left: 0;
   z-index: -1;
 }
-.CTA{
-    max-width: 650px;
+.CTA {
+  max-width: 650px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.CTALogoOne{
-    margin-bottom: 12px;
+.CTALogoOne {
+  margin-bottom: 12px;
   max-width: 600px;
   min-height: 1px;
   display: block;
-  width: 100%; 
+  width: 100%;
 }
-.SignUp{
+.SignUp {
   font-weight: bold;
   color: #f9f9f9;
   background-color: #0063e5;
@@ -55,18 +55,17 @@
   border: 1px solid transparent;
   border-radius: 4px;
 }
-.SignUp:hover{
+.SignUp:hover {
   background-color: #0483ee;
 }
-.Description
-{
+.Description {
   color: hsla(0, 0%, 95.3%, 1);
   font-size: 11px;
   margin: 0 0 24px;
   line-height: 1.5;
   letter-spacing: 1.5px;
 }
-.CTALogoTwo{
+.CTALogoTwo {
   max-width: 600px;
   margin-bottom: 20px;
   display: inline-block;

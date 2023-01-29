@@ -32,6 +32,20 @@ a {
 }
 @media only screen and (max-width: 479px) {
   body {
-      font-size: 14px;
+    font-size: 14px;
   }
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white !important;
+}
+
+.slick-list {
+  overflow: initial !important;
+}
+.slick-prev {
+  left: -75px !important;
+}
+.slick-next {
+  right: -75px !important;
 }
