@@ -21,7 +21,6 @@ import { useAuthState } from "react-firebase-hooks/auth";
 
 const Header = (props) => {
   const [user] = useAuthState(auth);
-  console.log(user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const userName = useSelector(selectUserName);
