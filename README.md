@@ -1,5 +1,5 @@
 # Hotstar-Clone
 
-## Visit here:https://disneyplus-clone-68c0c.web.app/
+## Visit here:https://hotstar-clone-deepika.onrender.com
 
 
