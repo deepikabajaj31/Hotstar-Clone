@@ -20,22 +20,22 @@ const ImgSlider = (props) => {
   return (
     <Slider className={styles.Carousel} {...settings}>
       <div className={styles.Wrap}>
-        <a href="/">
+        <a href="/home">
           <img src={img} alt=""></img>
         </a>
       </div>
       <div className={styles.Wrap}>
-        <a href="/">
+        <a href="/home">
           <img src={img1} alt="/" />
         </a>
       </div>
       <div className={styles.Wrap}>
-        <a href="/">
+        <a href="/home">
           <img src={img2} alt="/" />
         </a>
       </div>
       <div className={styles.Wrap}>
-        <a href="/">
+        <a href="/home">
           <img src={img3} alt="/" />
         </a>
       </div>

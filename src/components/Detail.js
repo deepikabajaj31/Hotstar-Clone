@@ -11,10 +11,12 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 const Detail = (props) => {
   const [user] = useAuthState(auth);
+
   const navigate = useNavigate();
   const { id } = useParams();
   const [detailData, setDetailData] = useState({});
   const [hoja, setHoja] = useState(false);
+  console.log(user);
 
   if (!user) {
     navigate("/");
@@ -37,11 +39,19 @@ const Detail = (props) => {
       </div>
       <div className={styles.ContentMeta}>
         <div className={styles.Controls}>
-          <button className={styles.Player}>
+          <button
+            className={styles.Player}
+            type="button"
+            onClick={() => navigate(`/detail/${id}/video`)}
+          >
             <img src={img} alt="" />
             <span>Play</span>
           </button>
-          <button className={`${styles.Player} ${styles.Trailer}`}>
+          <button
+            className={`${styles.Player} ${styles.Trailer}`}
+            onClick={() => navigate(`/detail/${id}/video`)}
+            type="button"
+          >
             <img src={img1} alt="" />
             <span>Trailer</span>
           </button>
