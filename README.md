@@ -1,6 +1,6 @@
 # Hotstar-Clone
 
-## Visit here:https://hotstar-clone-deepika.onrender.com
+## Visit here: https://hotstar-clone-steel.vercel.app/
 
 HOTSTAR-CLONE is an online video streaming app where you can watch videos.
 
