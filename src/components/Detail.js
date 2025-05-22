@@ -29,6 +29,7 @@ const Detail = (props) => {
     };
     getData();
   }, [id]);
+  console.log("hey");
   return (
     <div className={styles.Container}>
       <div className={styles.Background}>
